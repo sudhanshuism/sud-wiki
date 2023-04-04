@@ -1,3 +1,6 @@
+body{
+    background-color: #f8f9fa;
+}
 a{
     color: #3366cc !important;
     text-decoration: none;
@@ -218,6 +221,9 @@ a.nav-link.active {
 .sud-wiki .page-body{
     margin-top: 34px;
 }
+.sud-wiki .page-body .left-nav-col{
+    max-width: 18em;
+}
 .sud-wiki .page-body .left-nav{
     height: calc(100vh - 50px);
     overflow-y: auto;
@@ -243,6 +249,9 @@ a.nav-link.active {
 }
 .sud-wiki .page-body .left-nav .group .menu-item li{
     margin-left: -15px;
+}
+.sud-wiki .page-body .content-col{
+    min-width: calc(75% + 7em);
 }
 .sud-wiki .page-body .content .heading{
     font-family: 'Linux Libertine','Georgia','Times',serif;
@@ -298,3 +307,9 @@ a.nav-link.active {
     margin-top: 1em;
 }
 
+@media screen and (min-width: 1200px){
+body {
+    padding-left: 8.25em;
+    padding-right: 8.25em;
+}
+}
