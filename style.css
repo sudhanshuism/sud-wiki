@@ -251,7 +251,7 @@ a.nav-link.active {
     margin-left: -15px;
 }
 .sud-wiki .page-body .content-col{
-    min-width: calc(75% + 7em);
+    
 }
 .sud-wiki .page-body .content .heading{
     font-family: 'Linux Libertine','Georgia','Times',serif;
@@ -309,7 +309,6 @@ a.nav-link.active {
 
 @media screen and (min-width: 1200px){
 body {
-    padding-left: 8.25em;
-    padding-right: 8.25em;
+    
 }
 }
