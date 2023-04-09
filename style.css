@@ -218,6 +218,7 @@ a.nav-link.active {
     font-size: 18px;
     color: black;
 }
+
 .sud-wiki .page-body{
     margin-top: 34px;
 }
@@ -307,8 +308,65 @@ a.nav-link.active {
     margin-top: 1em;
 }
 
-@media screen and (min-width: 1200px){
-body {
+@media only screen and (max-width: 400px){
+
+    .sud-wiki{
+        padding:0 0;
+    }
+    .sud-wiki .wiki-search-col, .sud-wiki .nav-links-col{
+        display: none;
+    }
+    .sud-wiki .top-nav{
+        height: 52px;
+        padding: 5px 10px;
+        background-color: #EAECF0;
+    }
+    .wikipedia-combined{
+        position: relative;
+    }
+    .wikipedia-combined .icon{
+        display: none;
+    }
+    .wikipedia-combined .word{
+        width: 7.5em;
+        height: 1.125em;
+        left: 33px;
+        top: -25px;
+    }
+    .wikipedia-combined .tagline{
+        display: none;
+    }
+    .sud-wiki .page-body .left-nav{
+        display: none;
+    }
+    .sud-wiki .page-body .content{
+        margin-top: -20px;
+    }
+
+    .sud-wiki .page-body .content .heading{
+        border-bottom: 0px;
+    }
+    .sud-wiki .page-body .content .content-nav{
+        border-top: 0;
+        
+    }
+    .sud-wiki .page-body .content .content-nav .right-col{
+            display: none;
+    }
+    .sud-wiki .page-body .content {
+        font-size: 14px !important;
+        padding: 5px 19px !important;
+    }
+    .sud-wiki .page-body .content .bio-table{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .sud-wiki .page-body .content .note{
+        text-indent: 0;
+        padding-bottom: 10px;
+    }
+    .sud-wiki .page-body .content  .detail-desc{
+        background-color: #fff;
+    }
     
-}
 }
