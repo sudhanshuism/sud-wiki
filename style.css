@@ -1,0 +1,314 @@
+body{
+    background-color: #f8f9fa;
+}
+a{
+    color: #3366cc !important;
+    text-decoration: none;
+}
+a.nav-link.active {
+    color: black !important;
+    border-bottom: 1px solid #202122;
+}
+*{
+    font-family: sans-serif;
+}
+.sud-wiki{
+    background-color: #ffffff;
+    padding: 8px 30px;
+}
+.sud-wiki .table>:not(caption)>*>*{
+    padding: 0.2rem 0.4rem;
+}
+.wikipedia-combined{
+    position: relative;
+}
+.wikipedia-combined .icon{
+    width: 3.125em;
+    height: 3.125em;
+    position: absolute;
+    left: 5px;
+    top: -1px;
+}
+.wikipedia-combined .word{
+    width: 7.5em;
+    height: 1.125em;
+    position: absolute;
+    left: 59px;
+    top: 5px;
+}
+.wikipedia-combined .tagline{
+    width: 7.3125em;
+    height: 0.8125em;
+    position: absolute;
+    left: 63px;
+    top: 29px;
+}
+.sud-wiki .top-nav{
+    padding: 0 25px;
+}
+
+.sud-wiki .top-nav .fa-bar-container{
+    max-width: 40px;
+    padding-top: 8px;
+    position: relative;
+}
+
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown{
+    position: absolute;
+    top: 44px;
+    background-color: #ffffff;
+    border: 1px solid #a2a9b1;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+    transition-property: opacity;
+    transition-duration: 100ms;
+    width: 205px;
+    padding: 8px;
+    z-index: 9999;
+    display: none;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown hr{
+    margin: 0.2rem 0;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-header{
+    padding-bottom: 5px;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-body{
+    /* padding-bottom: 5px; */
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-body ul li{
+    list-style-type: none;
+    margin-left: -30px;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-body ul li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-header p{
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #54595d;
+}
+.sud-wiki .top-nav .fa-bar-container 
+.sandwich-dropdown .drop-header a{
+    font-size: 15.5px;
+    text-decoration: none;
+}
+.sud-wiki .top-nav .fa-bars{
+    font-size: 26px;
+    cursor: pointer;
+}
+/* .sud-wiki .top-nav .fa-bars:hover{
+    background-color:#f8f9fa;
+    padding: 4px;
+} */
+.sud-wiki .top-nav .wiki-search{
+    position: relative;
+    top: 13px;
+    margin-left: 48px;
+    padding-right: 67px;
+}
+.sud-wiki .top-nav .wiki-search .search-bar{
+    display: block;
+    box-sizing: border-box;
+    min-width: 256px;
+    min-height: 32px;
+    width: 100%;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.4285714;
+}
+.sud-wiki .top-nav .wiki-search .search-button{
+    box-sizing: border-box;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32em;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: none;
+    transition-property: background-color,color,border-color,box-shadow;
+    transition-duration: .1s;
+    position: absolute;
+    top: 0px;
+    right: 67px;
+    border: 1px solid #a2a9b1;
+    color: #202122;
+    
+    padding: 2px 10px;
+    border-radius: 0px;
+    font-size: 14px;
+
+}
+.sud-wiki .top-nav .wiki-search .search-button{
+    color: #404244;
+    background-color: white;
+    display: none;
+}
+.sud-wiki .top-nav .wiki-search:hover .search-button{
+    display: inline-block;
+    transition-duration: 100ms;
+}
+.sud-wiki .top-nav .wiki-search .search-bar{
+    padding-top: 3px;
+    text-indent: 25px;
+}
+.sud-wiki .top-nav .wiki-search .search-bar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    background-image: url("./images/search-icon-png-9969.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sud-wiki .top-nav .wiki-search .search-bar::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    background-image: url("./images/search-icon-png-9969.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sud-wiki .top-nav .wiki-search .search-bar:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    background-image: url("./images/search-icon-png-9969.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sud-wiki .top-nav .wiki-search .search-bar:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    background-image: url("./images/search-icon-png-9969.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.sud-wiki .top-nav .nav-links-col{
+    text-align: right;
+    width: 29%;
+}
+.sud-wiki .top-nav .nav-links a{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 5px;
+    display: inline-block;
+    line-height: 1.9;
+    font-size: 0.875em;
+}
+.sud-wiki .top-nav .nav-item .active{
+    color: black !important;
+}
+.sud-wiki .top-nav .nav-links .fa-ellipsis{
+    font-size: 18px;
+    color: black;
+}
+.sud-wiki .page-body{
+    margin-top: 34px;
+}
+.sud-wiki .page-body .left-nav-col{
+    max-width: 18em;
+}
+.sud-wiki .page-body .left-nav{
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    padding-top: 2.5em;
+}
+.sud-wiki .page-body .left-nav .left-nav-header{
+    font-size: 12px;
+    padding-left: 1px;
+    border-bottom: 1px solid #c5c5c5;
+    width: 146px;
+    padding-bottom: 6px;
+    margin-left: 31px;
+    margin-bottom: 4px;
+}
+.sud-wiki .page-body .left-nav .group li{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.sud-wiki .page-body .left-nav .group li a{
+    text-decoration: none;
+    
+}
+.sud-wiki .page-body .left-nav .group .menu-item li{
+    margin-left: -15px;
+}
+.sud-wiki .page-body .content-col{
+    
+}
+.sud-wiki .page-body .content .heading{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-size: 28px;
+}
+.sud-wiki .page-body .content .content-nav{
+    border-top: 1px solid #c8ccd1;
+    border-bottom: 1px solid #c8ccd1;
+    margin-bottom: 10px;
+}
+.sud-wiki .page-body .content .free-encyclopedia{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.sud-wiki .page-body .content{
+    font-size: 14px !important;
+    padding: 5px 5px !important;
+}
+.sud-wiki .page-body .content .note{
+    margin-bottom: 3px;
+    text-indent: 20px;
+}
+.sud-wiki .page-body .content .bio-table{
+    text-align: center;
+    float: right;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    max-width: 300px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.sud-wiki .page-body .content .bio-table .subject-photo{
+    max-height: 280px;
+}
+.sud-wiki .page-body .content .bio-table th, 
+.sud-wiki .page-body .content .bio-table td{
+    font-size: 13px;
+    text-align: left;
+}
+.sud-wiki .page-body .content .detail-desc .para{
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.sud-wiki .section-heading{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    margin-bottom: 0.25em;
+    line-height: 1.3;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 1200px){
+body {
+    
+}
+}
